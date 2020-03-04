@@ -1,0 +1,57 @@
+*, *::before, *::after {
+    margin: 0; padding: 0;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+/* --------------------------
+                 Product Card
+-------------------------- */
+
+.product-title {
+    display: inline-block;
+}
+
+.product-add-btn {
+    float: right;
+    cursor: pointer;
+}
+
+.product-container {
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+/* slight margin to separate title */
+.product-container > form {
+    margin-top: 10px;
+}
+
+.product-list {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+.product-data-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-remove-btn:hover {
+    color: #D50000;
+}
+
+.product-quantity {
+    width: 40px;
+}
+
+.product-summary {
+    display: block;
+    float: right;
+}
